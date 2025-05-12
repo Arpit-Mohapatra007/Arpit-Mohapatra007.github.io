@@ -8,7 +8,7 @@
             var message = document.getElementById("message").value;
 
             // Call Google Apps Script function using fetch
-            fetch("https://script.google.com/macros/s/AKfycbwixjQojQ4sSBg93rrz168P3a-6gQx2J_wludF82IjhMuZvSzGMcrp0B12-jxgeeM-CqQ/exec", {
+            fetch("https://script.google.com/macros/s/AKfycbypFTqfzsdGjDyyDJw0UnlfgCcqnBJNTZQgGi2IFmjoUIiUoWtem3tQW7bl1R1xzJnw3Q/exec", {
                 method: "POST",
                 body: new URLSearchParams({
                     "name": name,
